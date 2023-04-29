@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons/Website Icon.ico">
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/online.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/body.css" />
+    <script src="js/myscripts.js" defer></script>
+    <title>Green Thumb Landscaping</title>
+</head>
+
+<body>
+    <div class="main_body">
+        <header>
+            <nav>
+                <div class="top-panel">
+                    <div class="container">
+                        <div class="message">
+                            <div class="info">
+                                Call Us Now: <a href="tel:x">780 302 0635</a>
+                            </div>
+                        </div>
+                        <div class="social-media">
+                            <div class="social-media-list">
+                                <ul class="list">
+                                    <li class="list"><a href="https://www.facebook.com"><img class="social-img"
+                                                src="icons/fb_icn.png"></a></li>
+                                    <li class="list"><a href="https://www.twitter.com"><img class="social-img"
+                                                src="icons/tw_icn.png"></a></li>
+                                    <li class="list"><a href="https://www.pinterest.com"><img class="social-img"
+                                                src="icons/pin_icn.png"></a></li>
+                                    <li class="list"><a href="https://www.youtube.com"><img class="social-img"
+                                                src="icons/yt_icn.png"></a></li>
+                                </ul>
+                                <div class="search">
+                                    <img class="social-img" src="icons/srch_icn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-container">
+                    <div class="banner-brand">
+                        <div class="banner-logo">
+                            <a href="index.html"><img class="logo-img" src="images/Logo.png"></a>
+                        </div>
+                        <div class="navigation-menu">
+                            <ul class="menu">
+                                <li class="items"><a href="index.html">HOME PAGE</a></li>
+                                <li class="items"><a href="about-us.html">ABOUT US</a></li>
+                                <li class="items"><a href="contact-us.html">CONTACT US</a></li>
+                                <li class="items"><a href="testimonial.html">TESTIMONIALS</a></li>
+                                <li class="items"><a href="services.html">SERVICES</a></li>
+                                <li class="items current-menu"><a href="online-estimate.html">ONLINE ESTIMATE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="online-main-content">
+            <div class="online-container">
+                <div class="online-content">
+                    <div class="online-title">
+                        ONLINE ESTIMATE
+                        <p>Have a landscaping idea but not sure where to start? You can get a decent idea of cost from
+                            our calculator, just plug in your needs and generate a base price / estimate.</p>
+                    </div>
+                    <div class="online-title-2">
+                        RESIDENTIAL SERVICES PRICES
+                        <p>Based off an average yard size of 10000 Square Feet, choose what you need done weekly,
+                            monthly or just one time!</p>
+                    </div>
+                    <div class="online-lists">
+                        <table class="lists">
+                            <th style="text-align: center;">Services</th>
+                            <th style="text-align: center;">Rates</th>
+                            <th style="text-align: center;">Total ($)</th>
+                            <tr>
+                                <td>Landscape Maintenance (pruning / weed removal)</td>
+                                <td><input id="rate1" onkeydown="updateText(event)" name="rate1" size="10"
+                                        placeholder="$10.00/Hr"></td>
+                                <td><input id="rate1-T" size="10" placeholder="" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Treatment & fertilization</td>
+                                <td><input id="rate2" onkeydown="updateText(event)" name="rate2" size="10"
+                                        placeholder="$0.003/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate2-T" name="rate2-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Lawn Thatching / clean up</td>
+                                <td><input id="rate3" onkeydown="updateText(event)" name="rate3" size="10"
+                                        placeholder="$0.004/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate3-T" name="rate3-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Grass cutting</td>
+                                <td><input id="rate4" onkeydown="updateText(event)" name="rate4" size="10"
+                                        placeholder="$0.004/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate4-T" name="rate4-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mulching</td>
+                                <td><input id="rate5" onkeydown="updateText(event)" name="rate5" size="10"
+                                        placeholder="$0.001/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate5-T" name="rate5-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Seeding</td>
+                                <td><input id="rate6" onkeydown="updateText(event)" name="rate6" size="10"
+                                        placeholder="$0.007/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate6-T" name="rate6-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Aeration</td>
+                                <td><input id="rate7" onkeydown="updateText(event)" name="rate7" size="10"
+                                        placeholder="$0.003/Sq. ft">
+                                </td>
+                                <td><input type="text" id="rate7-T" name="rate7-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tree-health inspections</td>
+                                <td><input id="rate8" onkeydown="updateText(event)" name="rate8" size="10"
+                                        placeholder="$5.00/Tree"></td>
+                                <td><input type="text" id="rate8-T" name="rate8-T" size="10" placeholder="" readonly>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>Tree trimming</td>
+                                <td><input id="rate9" onkeydown="updateText(event)" name="rate9" size="10"
+                                        placeholder="$40.00/Tree"></td>
+                                <td><input type="text" id="rate9-T" name="rate9-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shrub pruning</td>
+                                <td><input id="rate10" onkeydown="updateText(event)" name="rate10" size="10"
+                                        placeholder="$10.00/Tree">
+                                </td>
+                                <td><input type="text" id="rate10-T" name="rate10-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Weed management</td>
+                                <td><input id="rate11" onkeydown="updateText(event)" name="rate11" size="10"
+                                        placeholder="$10.00/Hr"></td>
+                                <td><input type="text" id="rate11-T" name="rate11-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tree removal</td>
+                                <td><input id="rate12" onkeydown="updateText(event)" name="rate12" size="10"
+                                        placeholder="$80.00/Tree">
+                                </td>
+                                <td><input type="text" id="rate12-T" name="rate12-T" size="10" placeholder="" readonly>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" style="text-align: right;"><b>Grand Total</b></td>
+                                <td style="text-align: center;"><b id="GT">$0.000</b></td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrap">
+                <div class="footer-container">
+                    <div class="footer-content">
+                        <div class="footer-items">
+                            <img class="footer-logo-img" src="images/Logo copy.png" alt="Logo" />
+                            <ul class="list">
+                                <li class="list"><a href="https://www.facebook.com"><img class="footer-img"
+                                            src="icons/fb_icn.png"></a></li>
+                                <li class="list"><a href="https://www.twitter.com"><img class="footer-img"
+                                            src="icons/tw_icn.png"></a></li>
+                                <li class="list"><a href="https://www.pinterest.com"><img class="footer-img"
+                                            src="icons/pin_icn.png"></a></li>
+                                <li class="list"><a href="https://www.youtube.com"><img class="footer-img"
+                                            src="icons/yt_icn.png"></a></li>
+                            </ul>
+                            <p id="footer-license">The Green Thumb Landscaping © 2023 · Privacy Policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

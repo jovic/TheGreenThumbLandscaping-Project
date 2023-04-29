@@ -1,0 +1,92 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #2b2a2a;
+}
+
+.comments-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.comments-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.comments-title>h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.comments-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 100px;
+
+}
+
+.comments-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comments-text {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.comments-img {
+    display: block;
+    background-image: url('../icons/quotation.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #989797;
+}
+
+.comments-text>p {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.comments-author {
+    padding-top: 20px;
+    text-align: left;
+    color: #66ab36;
+}
+
+.comments-rating {
+    color: #fff200;
+}

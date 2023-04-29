@@ -1,0 +1,124 @@
+    :root {
+        --color_0: 255, 255, 255;
+        --color_44: 245, 245, 245;
+        --color_22: 127, 227, 79;
+        --color_1: 30, 30, 30;
+        --color_2: 180, 106, 44;
+        --color_3: 105, 102, 102;
+        --color_4: 245, 245, 245;
+        /**44**/
+        --color_5: 250, 232, 219;
+        --color_6: 255, 255, 255;
+        /**0**/
+        --color_7: 199, 199, 199;
+        --color_8: 143, 143, 143;
+        --color_23: 100, 179, 2;
+        --color_9: 86, 86, 86;
+        --color_10: 30, 30, 30;
+        --color_11: 245, 245, 245;
+        /**44**/
+        --color_12: 219, 219, 219;
+        /**5**/
+        --color_13: 143, 143, 143;
+        /**8**/
+        --color_14: 86, 86, 86;
+        /**9**/
+        --color_15: 30, 30, 30;
+        /**1**/
+        --color_16: 236, 205, 178;
+        --color_17: 218, 155, 102;
+        --color_18: 162, 96, 40;
+        --color_24: 80, 143, 50;
+        --color_19: 120, 71, 29;
+        --color_20: 60, 35, 15;
+        --color_25: 56, 99, 35;
+        --color_26: 87, 194, 255;
+        --color_27: 54, 164, 227;
+        --color_28: 34, 121, 171;
+        --color_29: 22, 84, 120;
+        --color_30: 13, 52, 74;
+        --color_31: 252, 139, 139;
+        --color_32: 252, 53, 53;
+        --color_33: 201, 40, 40;
+        --color_34: 150, 24, 24;
+        --color_35: 103, 14, 14;
+        --color_36: 245, 245, 245;
+        /**44**/
+        --color_37: 30, 30, 30;
+        /**1**/
+        --color_38: 219, 219, 219;
+        /**5**/
+        --color_39: 143, 143, 143;
+        /**8**/
+        --color_40: 86, 86, 86;
+        /**9**/
+        --color_41: 162, 96, 40;
+        /**18**/
+        --color_45: 30, 30, 30;
+        /**1**/
+        --color_46: 30, 30, 30;
+        /**1**/
+        --color_47: 219, 219, 219;
+        /**5**/
+        --color_48: 162, 96, 40;
+        /**18**/
+        --color_49: 162, 96, 40;
+        /**18**/
+        --color_50: 245, 245, 245;
+        /**44**/
+        --color_51: 245, 245, 245;
+        /**44**/
+        --color_52: 162, 96, 40;
+        /**18**/
+        --color_53: 162, 96, 40;
+        /**18**/
+        --color_54: 143, 143, 143;
+        /**8**/
+        --color_55: 143, 143, 143;
+        /**8**/
+        --color_56: 245, 245, 245;
+        /**44**/
+        --color_57: 245, 245, 245;
+        /**44**/
+        --color_58: 162, 96, 40;
+        /**18**/
+        --color_42: 30, 30, 30;
+        /**1**/
+        --color_59: 162, 96, 40;
+        /**18**/
+        --color_60: 162, 96, 40;
+        /**18**/
+        --color_61: 162, 96, 40;
+        /**18**/
+        --color_62: 245, 245, 245;
+        /**44**/
+        --color_63: 245, 245, 245;
+        /**44**/
+        --color_64: 143, 143, 143;
+        /**8**/
+        --color_21: 148, 255, 97;
+        --color_43: 143, 143, 143;
+        /**8**/
+        --color_65: 143, 143, 143;
+        /**8**/
+        --font_0: normal normal normal 88px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_1: normal normal normal 14px/1.79em poppins-extralight, poppins, sans-serif;
+        --font_2: normal normal normal 72px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_3: normal normal normal 50px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_4: normal normal normal 40px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_5: normal normal normal 28px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_6: normal normal normal 22px/1.4em poppins-semibold, poppins, sans-serif;
+        --font_7: normal normal normal 20px/1.67em poppins-semibold, poppins, sans-serif;
+        --font_8: normal normal normal 15px/1.4em poppins-extralight, poppins, sans-serif;
+        --font_9: normal normal normal 14px/1.4em poppins-extralight, poppins, sans-serif;
+        --font_10: normal normal normal 14px/1.79em poppins-extralight, poppins, sans-serif;
+        --wix-ads-height: 0px;
+        --wix-ads-top-height: 0px;
+        --maxViewportSize: 1920;
+        --site-width: 980px;
+        --above-all-z-index: 100000;
+        --portals-z-index: 100001;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        --minViewportSize: 320;
+    }

@@ -1,0 +1,107 @@
+.contact-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #66ab36;
+    color: white;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+}
+
+.contact-title>h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.contact-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 100px;
+
+}
+
+.contact-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-text {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.contact-img {
+    display: block;
+    background-image: url('../icons/quotation.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #989797;
+}
+
+.contact-text>p {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.contact-author {
+    padding-top: 20px;
+    text-align: left;
+    color: #66ab36;
+}
+
+.contact-rating {
+    color: #fff200;
+}

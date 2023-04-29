@@ -1,0 +1,251 @@
+.services-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+.services-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%), url('../images/mowed_lawn.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+
+.services-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.services-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 200px 20px;
+}
+
+.fom-btn {
+    background-color: #66ab36;
+    border-color: rgb(88, 88, 88);
+    color: #ffff;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 12px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30;
+    margin-left: 300px;
+
+}
+
+.fom-btn:hover {
+    background-color: #414141;
+    border-color: rgb(88, 88, 88);
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+    padding: 50px 20px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.services-text-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 70px 20px;
+    background-color: #414141;
+}
+
+.services-content-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%), url('../images/planting_plants.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+
+.services-title-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.services-title-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 200px 20px;
+}
+
+.services-text-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+    padding: 50px 20px;
+    font-size: 17px;
+    font-weight: normal;
+    width: 70%;
+}
+
+.services-content-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%), url('../images/nice_backyard.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.services-text-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-weight: normal;
+    width: 70%;
+}
+
+.services {
+    columns: 2;
+    list-style-image: url("../icons/check-mark.png");
+    padding-left: 30px;
+}
+
+.services-title-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 200px 20px;
+}
+
+.services-content-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%), url('../images/nice_backyard.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.services-text-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-weight: normal;
+    width: 70%;
+}
+
+.services {
+    columns: 2;
+    list-style-image: url("../icons/check-mark.png");
+    padding-left: 30px;
+}
+
+.services-title-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 200px 20px;
+}

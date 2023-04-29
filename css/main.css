@@ -1,0 +1,474 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url('../images/laying_sod.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #ffff;
+    overflow: auto;
+}
+
+.intro-message {
+    padding: 150px 20px;
+}
+
+.intro-message-tag {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+.offer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.offer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 183, 0), rgb(255, 200, 0));
+    width: 100%;
+}
+
+.offer-best-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-offer {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    color: #ffff;
+    font-size: 25px;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-color: transparent;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.offers-img {
+    width: 100px;
+    filter: invert(1);
+}
+
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.content-wrap-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.content-wrap-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.content-content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+    width: inherit;
+    max-width: 100%;
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    width: 100%;
+}
+
+.content-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.con-img {
+    width: 50%;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0px 50px;
+}
+
+.content-text>span>h2 {
+    margin: 0px;
+    padding: 2px;
+    font-size: 35px;
+}
+
+.content-text>h4 {
+    margin: 0px;
+    padding: 30px 0px;
+    color: #989797;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.content-text>span {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.content-text>p {
+    text-align: left;
+    margin: 0px;
+    padding-top: 5px;
+    color: #989797;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.button {
+    background-color: transparent;
+    border-color: rgb(88, 88, 88);
+    color: black;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 12px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(255, 183, 0);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-wrap-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-content-wrap-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/wheelbarow_backyard_2.jpg');
+    background-size: cover;
+    width: 100%;
+    color: #ffff;
+    background-position: center;
+}
+
+
+.content-wrap-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 50px 150px;
+    text-align: left;
+
+}
+
+
+.content-wrap-2-text>span>h1 {
+    color: rgb(255, 194, 41);
+    text-align: left;
+    font-size: 65px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 800;
+}
+
+.content-wrap-2-text>span {
+    text-align: left;
+    padding: 100px 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(79, 78, 78);
+}
+
+.content-wrap-2-text>span>h2 {
+    font-size: 65px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fom-btn {
+    background-color: #66ab36;
+    border-color: rgb(88, 88, 88);
+    color: #ffff;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 12px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.fom-btn:hover {
+    background-color: #414141;
+    border-color: rgb(88, 88, 88);
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.content-wrap-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content-content-wrap-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    color: #ffff;
+    background-position: center;
+}
+
+.content-container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.content-3-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.content-3-title>span>h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.content-3-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.content-3-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: #989797;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: left;
+    width: 50%;
+}
+
+.content-3-img {
+    width: inherit;
+    padding: 10px 15px;
+}
+
+.content-3-col>a {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.content-3-col>a:hover {
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.content-3-col>p {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    color: #989797;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #2b2a2a;
+}
+
+.comments-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.comments-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.comments-title>h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.comments-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 100px;
+
+}
+
+.comments-col {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.comments-text {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 33%;
+}
+
+.comments-img {
+    display: block;
+    background-image: url('../icons/quotation.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #989797;
+}
+
+.comments-text>p {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.comments-author {
+    padding-top: 20px;
+    text-align: left;
+    color: #66ab36;
+}
+
+.comments-rating {
+    color: #fff200;
+}
